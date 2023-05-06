@@ -1,4 +1,4 @@
-* [首页](/)
+* [**首页**](/)
 
 * 项目
   * [EAuth-backend-Java](projects/EAuth-backend-Java)
