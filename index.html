@@ -7,10 +7,11 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="main" data-app></div>
   <script>
     window.$docsify = {
-      //...
+      el: '#main',
+      loadSidebar: true,
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
