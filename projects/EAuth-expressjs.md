@@ -1,19 +1,5 @@
 # 账户管理系统 API 文档
 
-## 目录
-
-1. [简介](https://chatnio.net/#简介)
-2. [安装与配置](https://chatnio.net/#安装与配置)
-3. API 端点
-   - [注册](https://chatnio.net/#注册)
-   - [验证码发送](https://chatnio.net/#验证码发送)
-   - [登录](https://chatnio.net/#登录)
-   - [用户信息](https://chatnio.net/#用户信息)
-   - [用户信息更新](https://chatnio.net/#用户信息更新)
-   - [用户忘记密码](https://chatnio.net/#用户忘记密码)
-4. [数据库初始化](https://chatnio.net/#数据库初始化)
-5. [项目结构](https://chatnio.net/#项目结构)
-
 ## 简介
 
 这是一个使用 Node.js 和 Express.js 实现的账户管理系统 API。系统使用 MySQL 作为数据库，并且所有的配置信息存储在 `.env` 文件中。
@@ -21,13 +7,7 @@
 ## 安装与配置
 
 ### 安装步骤
-
-1. 克隆项目
-
-   ```
-   bashgit clone https://github.com/your-repo/account-management.git
-   cd account-management
-   ```
+1. 克隆
 
 2. 安装依赖
 
